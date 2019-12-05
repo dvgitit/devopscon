@@ -45,4 +45,5 @@ public class HealthTest {
 		} catch(Exception e) {
 			fail();
 		}
+	}
 }
