@@ -36,5 +36,13 @@ public class HealthTest {
 		}
 
 	}
-
+	
+	@Test public void testUrlCorrect() {
+		URL url;
+		try {
+			url = new URL(appurl);
+			Assert.notNull(url);
+		} catch(Exception e) {
+			fail();
+		}
 }
