@@ -8,6 +8,8 @@ In order to make it work, please do the following:
   <li>Configure under <TOMCAT DIR>/conf/tomcat-users.xml the code below</li>
   <li>Restart tomcat <TOMCAT DIR>/bin/shutdown.sh & startup.sh</li>
   <li>Application URL is <a href=http://localhost:8080/helloworld/>http://localhost:8080/helloworld/</a></li>  
+  <li>Some Change</li>  
+  <li>Second Change</li>  
 </ul>
 
  > ```xml
